@@ -44,7 +44,7 @@ SELECT *
 FROM retiring_titles;
 
 -- DELIVERABLE 2
--- Retrieve list of employees of certain age, w/ no duplicates
+-- Retrieve list of employees eligable for mentorship program w/ no duplicates
 SELECT DISTINCT ON (em.emp_no) em.emp_no,
 	em.first_name,
 	em.last_name,
